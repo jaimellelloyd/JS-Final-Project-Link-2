@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="styles.css" />
+    <script src="jquery-3.7.1.js"></script>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <nav class="header">
+      <div class="max-width">
+        <ul class="menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#intro-video">Intoduction Video</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="menu-btn">
+          <img
+            src="images/menu-burger.png"
+            alt="burger button" />
+        </div>
+      </div>
+    </nav>
+
+    <!-- About Section -->
+    <section
+      class="about"
+      id="about">
+      <div class="max-width">
+        <!-- alert button -->
+        <button id="alertButton">Welcome Alert</button>
+
+        <h1 class="title">About</h1>
+        <div class="about-content">
+          <div class="left side">
+            <div class="logo">
+              <img
+                src="images/logo.jpg"
+                alt="man in a suit"
+                loading="lazy"
+                decoding="async"
+                height="400px" />
+            </div>
+          </div>
+          <div class="right side">
+            <div class="text">
+              <div></div>
+              <p>
+                I am <strong>Jaimelle Lloyd</strong>, an aspiring
+                <strong>Full-Stack Web Developer.</strong>
+                I am a <strong>Junior Web Developer</strong> at
+                <strong
+                  >LCT
+                  <a
+                    href="https://learncomputertoday.net/"
+                    target="_blank"
+                    >(Learn Computer Today)</a
+                  ></strong
+                >. LCT trains aspiring
+                <strong
+                  >Full-Stack Web Developers, Software Developers, Wordpress Developers, and
+                  Software Engineers,
+                </strong>
+                from scratch, up to an advanced level, applying the learnings to actual work. They
+                also provide an
+                <strong>OJT (On-the-Job Training)</strong>
+                certificate. Until you pass the OJT, they will not give you the certificate. They
+                make sure that you are ready, and pass their exams to become a
+                <strong>Certified Developer.</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Introduction Video -->
+    <section
+      class="intro-video"
+      id="intro-video">
+      <div class="max-width">
+        <h2 class="title">Introduction Video</h2>
+        <div class="intro-video-content">
+          <video
+            src="videos/Estranghero - Cup Of Joe (Official Lyric Visualizer)(360P).mp4"
+            poster="images/thumbnail.png"
+            height="400px"
+            controls
+            muted
+            playsinline></video>
+        </div>
+        <div
+          class="intro-text"
+          id="paragraphContainer">
+          <p>This is just a music video.</p>
+        </div>
+        <button id="addParagraphButton">Add paragraph</button>
+
+        <h3 class="increment">Like or Dislike</h3>
+        <div class="increment-decrement">
+          <button id="incrementButton">Like</button>
+          <button id="decrementButton">Dislike</button>
+          <p>Counter: <span id="counter">0</span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section
+      class="projects"
+      id="projects">
+      <div class="max-width">
+        <h2 class="title">Projects</h2>
+        <div class="projects-content">
+          <div class="card">
+            <div class="box">
+              <img
+                src="images/github.svg"
+                alt="github logo" />
+              <div class="text">
+                <a
+                  href="https://jaimellelloyd.github.io/CSS_Foundations_FinalProject1/"
+                  target="_blank"
+                  >Project 1</a
+                >
+              </div>
+              <p>Practice HTML and CSS one-page website.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <img
+                src="images/github.svg"
+                alt="github logo" />
+              <div class="text">
+                <a
+                  href="https://jaimellelloyd.github.io/CSS_Foundations_FinalProject2/"
+                  target="_blank"
+                  >Project 2</a
+                >
+              </div>
+              <p>Practice HTML and CSS website with multiple pages.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <img
+                src="images/github.svg"
+                alt="github logo" />
+              <div class="text">
+                <a
+                  href="https://jaimellelloyd.github.io/My-Website-Rank-9E/"
+                  target="_blank"
+                  >Project 3</a
+                >
+              </div>
+              <p>Practice HTML, CSS, and some basic, minimal JavaScript one-page website.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section
+      class="skills"
+      id="skills">
+      <div class="max-width">
+        <h2 class="title">Skills</h2>
+        <div class="skills-content">
+          <div class="column">
+            <div class="bar">
+              <div class="info">
+                <span>HTML5</span>
+                <span>95%</span>
+              </div>
+              <div class="line html"></div>
+            </div>
+
+            <div class="bar">
+              <div class="info">
+                <span>CSS3</span>
+                <span>95%</span>
+              </div>
+              <div class="line css"></div>
+            </div>
+
+            <div class="bar">
+              <div class="info">
+                <span>Javascript</span>
+                <span>95%</span>
+              </div>
+              <div class="line js"></div>
+            </div>
+
+            <div class="bar">
+              <div class="info">
+                <span>Laravel</span>
+                <span>95%</span>
+              </div>
+              <div class="line laravel"></div>
+            </div>
+
+            <div class="bar">
+              <div class="info">
+                <span>Bootstrap</span>
+                <span>95%</span>
+              </div>
+              <div class="line bootstrap"></div>
+            </div>
+
+            <button id="skillsButton">Show More Skills</button>
+            <div
+              id="moreSkills"
+              class="moreSkillsButton"
+              style="display: none">
+              <div class="bar">
+                <div class="info">
+                  <span>PHP</span>
+                  <span>95%</span>
+                </div>
+                <div class="line php"></div>
+              </div>
+
+              <div class="bar">
+                <div class="info">
+                  <span>MySQL</span>
+                  <span>95%</span>
+                </div>
+                <div class="line mysql"></div>
+              </div>
+
+              <div class="bar">
+                <div class="info">
+                  <span>Nodejs</span>
+                  <span>95%</span>
+                </div>
+                <div class="line nodejs"></div>
+              </div>
+
+              <div class="bar">
+                <div class="info">
+                  <span>Angular</span>
+                  <span>95%</span>
+                </div>
+                <div class="line angular"></div>
+              </div>
+
+              <div class="bar">
+                <div class="info">
+                  <span>Vuejs</span>
+                  <span>95%</span>
+                </div>
+                <div class="line vuejs"></div>
+              </div>
+
+              <div class="bar">
+                <div class="info">
+                  <span>Reactjs</span>
+                  <span>95%</span>
+                </div>
+                <div class="line reactjs"></div>
+              </div>
+
+              <div class="bar">
+                <div class="info">
+                  <span>Python</span>
+                  <span>95%</span>
+                </div>
+                <div class="line python"></div>
+              </div>
+
+              <div class="bar">
+                <div class="info">
+                  <span>Django</span>
+                  <span>95%</span>
+                </div>
+                <div class="line django"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section
+      class="contact"
+      id="contact">
+      <div class="max-width">
+        <h2 class="title">Contact</h2>
+        <div class="contact-content">
+          <div class="left column">
+            <form action="#">
+              <div class="fields">
+                <div class="field name">
+                  <input
+                    type="text"
+                    id="username"
+                    placeholder="Name"
+                    required
+                    minlength="3" />
+                </div>
+
+                <div class="field number">
+                  <input
+                    type="tel"
+                    id="number"
+                    placeholder="0991-123-4567"
+                    required
+                    pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" />
+                </div>
+              </div>
+
+              <div class="field email">
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="example@gmail.com"
+                  required />
+              </div>
+
+              <div class="field comment">
+                <textarea
+                  cols="30"
+                  rows="10"
+                  placeholder="Your Comment"></textarea>
+              </div>
+
+              <div class="button">
+                <button type="submit">Submit</button>
+                <button id="greetButton">Greet me</button>
+                <p id="greetingMessage"></p>
+              </div>
+            </form>
+          </div>
+
+          <div class="right column">
+            <div class="my-address">
+              <div class="info">
+                <div class="title-info">Address</div>
+                <div class="title-text"><em>Tarlac, Philippines</em></div>
+              </div>
+
+              <div class="info">
+                <div class="title-info">Email</div>
+                <div class="title-text">
+                  <a href="mailto:jaimellelloyd21@gmail.com">jaimellelloyd21@gmail.com</a>
+                </div>
+              </div>
+
+              <div class="info">
+                <div class="title-info">Contact Number</div>
+                <div class="title-text">(+63) 991-368-6772</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="resetpage"
+          id="resetButton">
+          Reset Page
+        </button>
+      </div>
+    </section>
+
+    <footer>
+      <div>Developed by <a href="#">Jaimelle Lloyd</a> | &copy; 2025 All Rights Reserved</div>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
